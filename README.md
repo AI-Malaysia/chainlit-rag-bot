@@ -37,8 +37,7 @@ poetry install
 streamlit run app_RAG.py
 ```
 
-Make sure to enter your own OpenAI_API and New_sAPI keys in news_search_audio
+Make sure to enter your own OpenAI_API key
 
-os.environ["OPENAI_API_KEY"] = "sk-"
+openai_api_key= "sk-"
 
-os.environ['NEWS_API_KEY'] = "="
