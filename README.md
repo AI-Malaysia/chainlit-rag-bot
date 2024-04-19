@@ -1,8 +1,8 @@
 # chainlit-rag-bot
 
-## Simple Streamlit app demonstrating LLM interaction with an API
+## A Simple RAG Chatbot with Chainlit, OpenAI, ChromaDB, and LangChain
 
-This is a simple application built using OpenAI APIs (whisper-1, tts-1, GPT-3.5-turbo-instruct), streamlit and LangChain,  the app utilizes the `APIChain` component from LangChain to make external API calls and retrieve data from News api https://newsapi.org/
+Build a Simple RAG Chatbot with Chainlit, OpenAI, ChromaDB, and LangChain. Please insert your own OpenAI Api key.
 
 ## Prerequisites
 
@@ -16,13 +16,13 @@ Before running this app, make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ai-malaysia/audio-newsapi-chatbot.git
+git clone https://github.com/ai-malaysia/chainlit-rag-bot.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd audio-newsapi-chatbot
+cd chainlit-rag-bot
 ```
 
 3. Install the dependencies using Poetry:
@@ -34,7 +34,7 @@ poetry install
 5. Usage
 
 ```bash
-streamlit run news_search_audio.py
+streamlit run app_RAG.py
 ```
 
 Make sure to enter your own OpenAI_API and New_sAPI keys in news_search_audio
