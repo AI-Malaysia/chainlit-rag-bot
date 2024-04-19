@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "chainlit-rag-bot"
+version = "0.1.0"
+description = ""
+authors = ["brianho"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+chainlit = "^1.0.504"
+langchain = "^0.1.16"
+pypdf2 = "^3.0.1"
+pypdf = "^4.2.0"
+openai = "^1.23.1"
+chromadb = "^0.4.24"
+tiktoken = "^0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
