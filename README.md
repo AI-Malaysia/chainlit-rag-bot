@@ -4,6 +4,11 @@
 
 Build a Simple RAG Chatbot with Chainlit, OpenAI, ChromaDB, and LangChain. Please insert your own OpenAI Api key.
 
+Main reference: This project is based on the Medium article 'Build a Chatbot in Minutes with Chainlit, GPT-4, and Langchain' (https://medium.com/@cleancoder/build-a-chatbot-in-minutes-with-chainlit-gpt-4-and-langchain-7690968578f0). The original code was sourced from https://github.com/satwikide. I have adapted it by incorporating OpenAI APIs (GPT-3.5-turbo and embedding models), along with fixing issues related to:
+- PDF content handling
+- Message text attributes
+- Other minor adjustments
+
 ## Prerequisites
 
 Before running this app, make sure you have the following installed:
